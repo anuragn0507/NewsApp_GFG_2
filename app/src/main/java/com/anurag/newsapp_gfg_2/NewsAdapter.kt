@@ -17,6 +17,7 @@ class NewsAdapter(private val list: List<Article>,private val context:Context): 
         val newsImage: ImageView = itemview.findViewById(R.id.news_image)
         val titleText: TextView = itemview.findViewById(R.id.title_text)
         val descTextView: TextView= itemview.findViewById(R.id.desc_text)
+        val subtitle:TextView = itemview.findViewById(R.id.subtitle)
 
     }
 
@@ -30,6 +31,7 @@ class NewsAdapter(private val list: List<Article>,private val context:Context): 
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         holder.titleText.text = list[position].title
         holder.descTextView.text = list[position].description
+        holder.subtitle.text = list[position].title
         Glide.with(context)
             .load(list[position].urlToImage)
             .centerCrop()

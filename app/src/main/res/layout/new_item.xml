@@ -55,6 +55,22 @@
             app:layout_constraintTop_toBottomOf="@+id/title_text"
             app:layout_constraintVertical_bias="0.0"
             tools:text="This is a sample description. "/>
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:padding="8dp"
+            android:paddingRight="12dp"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desc_text"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Subtitle "/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
