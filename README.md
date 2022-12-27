@@ -1,5 +1,5 @@
 # Baba News App
-Playstore Link :- "https://play.google.com/store/apps/details?id=com.anurag.newsapp_gfg_2"
+Playstore Link --> [Link](https://play.google.com/store/apps/details?id=com.anurag.newsapp_gfg_2)
 
 ## About(Making)
 This project is solo project build in android studio (Kotlin). Used news api for news source and implemented retrofit library for showing the news on UI.
